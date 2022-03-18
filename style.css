@@ -10,24 +10,8 @@ html {
     color: #8d9ea5;
 }
 
-nav {
-    padding: 0.2rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    _background-color: #8d9ea5;
-}
-
-a {
-    color: #8d9ea5;
-    font-weight: 600;
-    font-style: italic;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2a465c;
+header {
+    /* make sticky */
 }
 
 main {
@@ -41,6 +25,34 @@ main>section {
 footer {
     text-align: center;
 }
+
+nav {
+    padding: 0.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    _background-color: #8d9ea5;
+}
+
+a {
+    color: #8d9ea5;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a>svg {
+    color: rgb(0, 153, 255);
+    width: 1rem;
+}
+
+a:hover {
+    color: #2a465c;
+}
+
+
 
 .h2, hr {
     color: #316d92;
@@ -59,4 +71,34 @@ footer {
     width: 5rem;
     object-fit: cover;
     border-radius: 45px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.ulist {
+    padding: 0 1rem;
+}
+
+.social {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.arImage {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(rgba(3,213,255,1), rgba(255,255,255,1), rgba(255,255,255,1));
+}
+
+article>svg {
+    margin: 0.5rem;
 }
