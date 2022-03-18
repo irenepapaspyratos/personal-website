@@ -11,7 +11,7 @@ html {
 }
 
 header {
-    /* make sticky */
+    /* make me sticky */
 }
 
 main {
@@ -24,15 +24,6 @@ main>section {
 
 footer {
     text-align: center;
-}
-
-nav {
-    padding: 0.2rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    _background-color: #8d9ea5;
 }
 
 a {
@@ -52,13 +43,11 @@ a:hover {
     color: #2a465c;
 }
 
-
-
-.h2, hr {
+.h2 {
     color: #316d92;
 }
 
-.wrapper {
+.headerSection-profile {
     margin: 1rem 2rem;
     display: flex;
     align-items: center;
@@ -66,25 +55,38 @@ a:hover {
     color: #316d92;
 }
 
-.wrapper img {
+.headerSection-profile img {
     height: 5rem;
     width: 5rem;
     object-fit: cover;
     border-radius: 45px;
 }
 
-.project {
+.headerNav {
+    padding: 0.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    _background-color: #8d9ea5;
+}
+
+.mainSection-cont {
+    margin-top: 1rem;
+}
+
+.mainSectionFlex {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 1rem;
 }
 
-.ulist {
+.mainSection-play--ulist {
     padding: 0 1rem;
 }
 
-.social {
+.mainSection-social--card {
     width: 8rem;
     display: flex;
     flex-direction: column;
