@@ -19,10 +19,15 @@ nav {
     _background-color: #8d9ea5;
 }
 
-nav a {
+a {
     color: #8d9ea5;
     font-weight: 600;
+    font-style: italic;
     text-decoration: none;
+}
+
+a:hover {
+    color: #2a465c;
 }
 
 main {
